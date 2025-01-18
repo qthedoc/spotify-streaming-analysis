@@ -14,10 +14,10 @@ The goal of this project is to explore the patterns and trends within the user's
 The data used for this analysis was obtained from the Spotify streaming history feature, which provides users with a downloadable dataset containing their listening history. The dataset is in JSON format and includes information such as track name, artist, album, and timestamp.
 
 ## Tools and Libraries Used
-- Python 3.8
 - Jupyter Notebook
 - pandas
 - plotly
+- glob
 
 ## Project Structure
 - `streaming-history-data`: contains your Spotify streaming history data files (e.g., `Streaming_History_Audio_2016_1.json`).
@@ -35,8 +35,18 @@ The data used for this analysis was obtained from the Spotify streaming history 
 6. The generated plots will be at the bottom of the Jupyter Notebook
 
 
-## Contribution Welcome!
+## Contribution Welcome! (Dev Notes)
 - If you create and new or better visualizations, please feel free to pull request them in!
+- Clear all .ipynb outputs before commits
+
+## Future Plans
+- Deal with Timezone warnings
+- Separate Songs by Artist
+- aggregate deluxe albums
+- assign singles to an album
+- filter out listens under 30 sec
+- most skipped artists? haha
+- Create a GUI using Dash or similar
 
 ## Acknowledgments
 - The Spotify streaming history feature for providing users with access to their listening data.
