@@ -1,0 +1,7 @@
+streaming-history-data/*.json
+streaming-history-data/*.pdf
+
+# example data
+# !streaming-history-data/Streaming_History_Audio_2015-2016_0.json
+!streaming-history-data/Streaming_History_Audio_2016_1.json
+!streaming-history-data/Streaming_History_Audio_2016-2017_2.json
